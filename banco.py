@@ -93,7 +93,7 @@ class Banco:
             raise ValueError('Falha na autenticação')
         
 # Instanciar contas
-conta_corrente = ContaCorrente(agencia="001", numero_conta="12345", saldo=1000.0, limite=500.0)
+conta_corrente = ContaCorrente(agencia="001", numero_conta="12345", saldo=10030.0, limite=500.0)
 conta_poupanca = ContaPoupanca(agencia="001", numero_conta="67890", saldo=500.0)
 
 # Instanciar clientes
